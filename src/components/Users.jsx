@@ -18,7 +18,7 @@ export default function Users() {
             console.log('error', error);
         }
     };
-    //-------------------detectUsers------------------------
+    //-------------------deleteUsers------------------------
     const deleteUser = async (userId) => {
         try {
             await fetch(`http://localhost:3001/users/${userId}`, {
